@@ -1,0 +1,131 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+html body{background:#7F2AFD}
+a{text-decoration:none;}
+.clearfix{clear:both;}
+.con{
+	min-height:600px;
+	background:#F3EBFF;
+	width:1250px;
+	margin:0px auto;
+}
+.hdr{
+	min-height:50px;
+	width:100%;
+}
+.hdr h1{
+	color:#CF81FF;
+	font-size:70px;
+	font-family:"Olympia Deco";
+	font-weight:10;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.hdr h1 span{
+	color:white;
+	background:linear-gradient(#FF0000,#FFEAEA);
+}
+.tile{
+	min-height:300px;
+	width:33%;
+	float:left;
+	margin:2px;
+	padding-bottom:20px;
+}
+.tile .img img{
+	opacity:.2;
+	display:block;
+	width:50%;
+	height:50%;
+	margin:auto;
+	margin-top:2%;
+}
+
+.tile .label{
+	background:#410064;
+	color:white;
+	border-radius:10%;
+	width:80%;
+	margin:5px auto;
+	margin-top:20px;
+}
+.tile .label:hover{
+	background:linear-gradient(#FF9500,#C27202);
+	color:black;
+	font-weight:70;
+}
+.tile .label h3{
+	font-size:30px;
+	font-weight:30;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.footer{
+	color:white;
+	min-height:200px;
+	background:#7F2AFD;
+	margin-top:20px;
+}
+.feedback{
+	
+	padding:5px;
+	width:50%;
+	float:left;
+}
+.feedback h3{
+	font-size:25px;
+	text-align:center;
+}
+.feedback-img{
+	width:50%;
+	margin:0px auto;
+}
+.feedback-img img{
+	width:20%;
+	height:20%;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.feedback-desc p{
+	font-size:18px;
+	padding-top:20px;
+
+}
+
+
+
+.subhdr{
+	color:#410064;
+}
+.subhdr h3{
+	font-size:60px;
+	font-weight:30;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.link{
+	min-height:20px;
+	background:#DFDFDF;
+	border-top:1px black solid;
+	font-size:20px;
+}
+.link:hover{
+	background:#CFBE90;
+}
+.l-title{
+	width:50%;
+	float:left;
+	padding-left:10px;
+}
+.l-desc{
+	width:50%;
+	float:right;
+	color:black;
+}
