@@ -122,6 +122,7 @@ a{text-decoration:none;}
 	background:#DFDFDF;
 	border-top:1px black solid;
 	font-size:20px;
+	word-wrap:break-word;
 }
 .link:hover{
 	background:#CFBE90;
@@ -129,12 +130,13 @@ a{text-decoration:none;}
 .l-title{
 	width:50%;
 	float:left;
-	padding-left:10px;
+	padding-left:5px;
 }
 .l-desc{
 	width:50%;
 	float:right;
 	color:black;
+	padding-left:5px;
 }
 
 @media screen and (max-width:600px){
