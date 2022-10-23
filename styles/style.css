@@ -30,6 +30,9 @@ a{text-decoration:none;}
 	color:white;
 	background:linear-gradient(#FF0000,#FFEAEA);
 }
+
+	
+
 .tile{
 	min-height:300px;
 	width:33%;
@@ -44,6 +47,9 @@ a{text-decoration:none;}
 	height:50%;
 	margin:auto;
 	margin-top:2%;
+}
+.tile .img img:hover{
+	opacity:.5;
 }
 
 .tile .label{
