@@ -9,7 +9,7 @@ a{text-decoration:none;}
 
 .con{
 	min-height:600px;
-	background:#FFFDC4; /*#F3EBFF*/
+	background:#FFFFE2; /*#F3EBFF*/
 	width:95%;
 	margin:0px auto;
 }
@@ -27,8 +27,8 @@ a{text-decoration:none;}
 	padding-bottom:40px;
 }
 .hdr h1 span{
-	color:#FFF1CA;
-	background:linear-gradient(#A98D56,#FFFDC4); /*#FF0000,#FFEAEA*/
+	color:#FF6200;
+	background:linear-gradient(#FFC39D,#F9EAE1); /*#FF0000,#FFEAEA*/
 }
 
 	
@@ -41,7 +41,7 @@ a{text-decoration:none;}
 	padding-bottom:20px;
 }
 .tile .img img{
-	opacity:.2;
+	opacity:.3;
 	display:block;
 	width:50%;
 	height:50%;
@@ -55,13 +55,13 @@ a{text-decoration:none;}
 .tile .label{
 	background:#BC3C01; /*#410064*/
 	color:white;
-	border-radius:10%;
+	border-radius:5%;
 	width:80%;
 	margin:5px auto;
 	margin-top:20px;
 }
 .tile .label:hover{
-	background:linear-gradient(#FF9500,#C27202);
+	background:linear-gradient(#E6D7BF,#BFB29B); /*#FF9500,#C27202*/
 	color:black;
 	font-weight:70;
 }
@@ -148,7 +148,7 @@ a{text-decoration:none;}
 		width:100%;
 		float:left;
 		padding-bottom:20px;
-		border-top:3px #410064 solid;
+		border-top:3px #FF4D00 solid; /*#410064*/
 	}
 	.tile .img img{
 		opacity:.5;
