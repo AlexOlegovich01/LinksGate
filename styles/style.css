@@ -3,13 +3,13 @@
 		padding:0px;
 		box-sizing:border-box;
 }
-html body{background:#7F2AFD}
+html body{background:#A98D56} /*#410064*/
 a{text-decoration:none;}
 .clearfix{clear:both;}
 
 .con{
 	min-height:600px;
-	background:#F3EBFF;
+	background:#FFFDC4; /*#F3EBFF*/
 	width:95%;
 	margin:0px auto;
 }
@@ -18,7 +18,7 @@ a{text-decoration:none;}
 	width:100%;
 }
 .hdr h1{
-	color:#CF81FF;
+	color:#885138; /*#CF81FF*/
 	font-size:70px;
 	font-family:"Olympia Deco";
 	font-weight:10;
@@ -27,8 +27,8 @@ a{text-decoration:none;}
 	padding-bottom:40px;
 }
 .hdr h1 span{
-	color:white;
-	background:linear-gradient(#FF0000,#FFEAEA);
+	color:#FFF1CA;
+	background:linear-gradient(#A98D56,#FFFDC4); /*#FF0000,#FFEAEA*/
 }
 
 	
@@ -53,7 +53,7 @@ a{text-decoration:none;}
 }
 
 .tile .label{
-	background:#410064;
+	background:#BC3C01; /*#410064*/
 	color:white;
 	border-radius:10%;
 	width:80%;
@@ -75,7 +75,7 @@ a{text-decoration:none;}
 .footer{
 	color:white;
 	min-height:200px;
-	background:#7F2AFD;
+	background:#A98D56; /*#7F2AFD*/
 	margin-top:20px;
 }
 .feedback{
