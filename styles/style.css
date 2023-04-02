@@ -3,13 +3,13 @@
 		padding:0px;
 		box-sizing:border-box;
 }
-html body{background:#A98D56} /*#410064*/
+html body{background:#5A9A06}
 a{text-decoration:none;}
 .clearfix{clear:both;}
 
 .con{
 	min-height:600px;
-	background:#FFFFE2; /*#F3EBFF*/
+	background:#F1FFC0;
 	width:95%;
 	margin:0px auto;
 }
@@ -21,14 +21,15 @@ a{text-decoration:none;}
 	color:#885138; /*#CF81FF*/
 	font-size:70px;
 	font-family:"Olympia Deco";
-	font-weight:10;
+	font-weight:30;
 	text-align:center;
 	padding-top:40px;
 	padding-bottom:40px;
 }
 .hdr h1 span{
-	color:#FF6200;
-	background:linear-gradient(#FFC39D,#F9EAE1); /*#FF0000,#FFEAEA*/
+	color:yellow;
+	background:linear-gradient(#00E608,#009A05);
+	margin-left:10px;
 }
 
 	
@@ -53,7 +54,7 @@ a{text-decoration:none;}
 }
 
 .tile .label{
-	background:#BC3C01; /*#410064*/
+	background:#5A9A06;
 	color:white;
 	border-radius:5%;
 	width:80%;
@@ -75,7 +76,7 @@ a{text-decoration:none;}
 .footer{
 	color:white;
 	min-height:200px;
-	background:#A98D56; /*#7F2AFD*/
+	background:#5A9A06;
 	margin-top:20px;
 }
 .feedback{
