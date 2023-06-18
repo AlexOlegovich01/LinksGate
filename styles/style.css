@@ -3,13 +3,13 @@
 		padding:0px;
 		box-sizing:border-box;
 }
-html body{background:#5A9A06}
+html body{background:#070600}
 a{text-decoration:none;}
 .clearfix{clear:both;}
 
 .con{
 	min-height:600px;
-	background:#F1FFC0;
+	background:#070600;
 	width:95%;
 	margin:0px auto;
 }
@@ -18,54 +18,52 @@ a{text-decoration:none;}
 	width:100%;
 }
 .hdr h1{
-	color:#885138; /*#CF81FF*/
+	color:#FF4D00; /*#CF81FF*/
 	font-size:70px;
 	font-family:"Olympia Deco";
-	font-weight:30;
+	font-weight:100;
 	text-align:center;
 	padding-top:40px;
 	padding-bottom:40px;
 }
 .hdr h1 span{
-	color:yellow;
-	background:linear-gradient(#00E608,#009A05);
+	color:#ffe600;
 	margin-left:10px;
+	font-weight:900;
 }
 
 	
 
 .tile{
-	min-height:300px;
+	min-height:400px;
 	width:33%;
 	float:left;
 	margin:2px;
 	padding-bottom:20px;
 }
-.tile .img img{
-	opacity:.3;
-	display:block;
-	width:50%;
-	height:50%;
+.tile .img{
+	width:170px;
+	margin:auto;
+}
+.tile .img h1{
+	text-align:center;
+	font-size: 200px;
 	margin:auto;
 	margin-top:2%;
-}
-.tile .img img:hover{
-	opacity:.5;
+	color:#ffe600;
+	border:5px dotted #FF4D00;
 }
 
 .tile .label{
-	background:#5A9A06;
+	background:#8d5e00;
+	background:linear-gradient(#8d5e00,#593b00);
 	color:white;
 	border-radius:5%;
 	width:80%;
 	margin:5px auto;
 	margin-top:20px;
 }
-.tile .label:hover{
-	background:linear-gradient(#E6D7BF,#BFB29B); /*#FF9500,#C27202*/
-	color:black;
-	font-weight:70;
-}
+
 .tile .label h3{
 	font-size:30px;
 	font-weight:30;
@@ -76,7 +74,7 @@ a{text-decoration:none;}
 .footer{
 	color:white;
 	min-height:200px;
-	background:#5A9A06;
+	background:#291600;
 	margin-top:20px;
 }
 .feedback{
@@ -101,7 +99,7 @@ a{text-decoration:none;}
 	margin-bottom:20px;
 }
 .feedback-desc p{
-	font-size:18px;
+	font-size:20px;
 	padding-top:20px;
 
 }
@@ -109,7 +107,7 @@ a{text-decoration:none;}
 
 
 .subhdr{
-	color:#410064;
+	color:#00ff1e;
 }
 .subhdr h3{
 	font-size:60px;
@@ -120,23 +118,24 @@ a{text-decoration:none;}
 }
 .link{
 	min-height:20px;
-	background:#DFDFDF;
-	border-top:1px black solid;
+	background:#070600;
+	border-top:1px #524a00 solid;
 	font-size:20px;
 	word-wrap:break-word;
 }
 .link:hover{
-	background:#CFBE90;
+	background:#332b00;
 }
 .l-title{
 	width:50%;
 	float:left;
 	padding-left:5px;
+	color:#00ff1e;
 }
 .l-desc{
 	width:50%;
 	float:right;
-	color:black;
+	color:white;
 	padding-left:5px;
 }
 
