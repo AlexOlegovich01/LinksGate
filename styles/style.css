@@ -148,7 +148,6 @@ a{text-decoration:none;}
 		width:100%;
 		float:left;
 		padding-bottom:20px;
-		border-top:3px #FF4D00 solid; /*#410064*/
 	}
 	.tile .img img{
 		opacity:.5;
