@@ -24,7 +24,7 @@ a{text-decoration:none;}
 	font-weight:100;
 	text-align:center;
 	padding-top:40px;
-	padding-bottom:40px;
+	padding-bottom:20px;
 }
 .hdr h1 span{
 	color:#ffe600;
@@ -32,7 +32,13 @@ a{text-decoration:none;}
 	font-weight:900;
 }
 
-	
+.banner div img{
+	height:200px;
+	width:70%;
+	display:block;
+	margin:auto;
+	padding-bottom:20px;
+}
 
 .tile{
 	min-height:400px;
@@ -172,5 +178,12 @@ a{text-decoration:none;}
 		font-size:14px;
 		padding:20px;
 
+	}
+	.banner div img{
+		height:200px;
+		width:95%;
+		display:block;
+		margin:auto;
+		padding-bottom:20px;
 	}
 }
